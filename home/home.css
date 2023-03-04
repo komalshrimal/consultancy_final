@@ -17,8 +17,23 @@ html, body
     height: 100%;
     width: 100%;
 
-    background-color: #E6F6FE;
+    /* background-color: #E6F6FE; */
+    background: linear-gradient(45deg,#E6F6FE,#B3E5FC,#0D79B7);
+    background-size: 300%, 300%;
+    animation: color 12s ease-in-out infinite;
 }
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
 
 /* NAVBAR */
 .nav-link

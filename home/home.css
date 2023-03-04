@@ -21,6 +21,7 @@ html, body
     background: linear-gradient(45deg,#E6F6FE,#B3E5FC,#0D79B7);
     background-size: 300%, 300%;
     animation: color 12s ease-in-out infinite;
+   
 }
 @keyframes color{
     0%{
@@ -34,6 +35,13 @@ html, body
     }
 }
 
+.container-fluid
+{
+    background: linear-gradient(45deg,#E6F6FE,#B3E5FC,#0D79B7);
+    background-size: 300%, 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
 
 /* NAVBAR */
 .nav-link
@@ -44,10 +52,11 @@ html, body
 
 .navbar
 {
-    height: 8vh;
+    height: 12vh;
     background-color: #E6F6FE;
     color: white;
     text-align: right;
+    
 }
 
 .navbar-brand
@@ -80,6 +89,7 @@ html, body
 {
     margin-left: 3vw;
     font-size: 22px;
+    margin-top: -10px;
 }
 
 .nav-link:hover
@@ -89,7 +99,7 @@ html, body
 /* NAVBAR --END-- */
 
 /* MAIN PAGE CONTENT */
-    .col-md-10, .col-md-11, .col-md-12, .col-md-4
+    .col-md-10, .col-md-11, .col-md-4
     {
         height: 80%;
         border-color: #9DDFEF;
@@ -179,6 +189,7 @@ html, body
   
   .card-content {
     padding: 1rem;
+    background-color: #E6F6FE ;
   }
   
   .card-header {
@@ -204,8 +215,8 @@ html, body
     padding: 1.5rem;
     font-size: 1rem;
     text-align: center;
-    color: #3363ff;
-    background-color: #d8e0fd;
+    color: #ffffff;
+    background-color: #2344ba;
     border: none;
     border-radius: 0.4rem;
     transition: 0.2s;
@@ -220,7 +231,7 @@ html, body
   
   .card-btn:hover,
   .card-btn:active {
-    background-color: #c2cffc;
+    background-color: #2d58f6;
   }
   
   .card-btn:hover span,
